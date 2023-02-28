@@ -1,0 +1,40 @@
+.conteiner {
+    width: 100%;
+}
+.conteiner .content {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.conteiner .content  img {
+    width: 550px;
+    height: 250px;
+}
+.conteiner .content h2 {
+    width: 50%;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(20, 20, 20);
+    margin-bottom: .5em;
+}
+.conteiner .content p {
+    width: 90%;
+    text-align: center;
+    color: rgb(95, 94, 94);
+    line-height: 1.5em;
+}
+.conteiner .content a {
+    margin-top: 2em;
+    padding: 10px 50px;
+    background: var(--backgroud-03);
+    color: var(--font-color-01);
+    font-weight: 500;
+    border-radius: 30px;
+}
+.conteiner .content a:hover {
+    cursor: pointer;
+    opacity: .9;
+}

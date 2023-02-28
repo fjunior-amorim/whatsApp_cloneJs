@@ -1,0 +1,38 @@
+.icon_link {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--backgroud-03);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.icon_link .box {
+    position: relative;
+    width: 20px;
+    height: 18px;
+    background: var(--font-color-01);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon_link .box svg {
+    color: var(--backgroud-03);
+}
+.icon_link .box::before {
+    position: absolute;
+    content: '';
+    top: 0px;
+    right: -5px;
+    width: 0; 
+    height: 0; 
+    border-left: 2px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #ffffff;
+}

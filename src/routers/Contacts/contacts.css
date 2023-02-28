@@ -1,0 +1,82 @@
+.agenda {
+    width: 100%;
+}
+.agenda .cabeçaho {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--backgroud-03);
+}
+
+.agenda .cabeçaho .detalhes {
+   display: flex;
+   align-items: center;
+   margin-left: 20px;
+   color: var(--font-color-01);
+   line-height: 1.5em;
+}
+.agenda .cabeçaho .detalhes h2 {
+    font-weight: 500;
+}
+.agenda .cabeçaho .detalhes a {
+    margin-right: 30px;
+    font-size: 1.5em;
+    color: var(--font-color-01);
+}
+.agenda .cabeçaho .detalhes p {
+    font-size: 14px;
+    font-weight: 400;
+}
+.agenda .cabeçaho .icons {
+    display: flex;
+    gap: 20px;
+    color: var(--font-color-01);
+    margin-right: 20px;
+    font-size: 1.5em;
+}
+.agenda .cabeçaho .icons svg{
+    cursor: pointer;
+}
+.link {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.link:hover {
+    cursor: pointer;
+}
+.link h3 {
+    font-weight: 600;
+    color: var(--font-color-02);
+}
+.link a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    color: white;
+    background: var(--backgroud-03);
+    border-radius: 50%;
+}
+.link a svg{
+    font-size: 1.5em;
+}
+.newContact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+.newContact .qrcode {
+    font-size: 1.5em;
+    color: var(--font-color-03);
+}
+.search h4, .contact_sApp h4 {
+    margin-left: 20px;
+    font-weight: 600;
+    color: var(--font-color-03);
+}
