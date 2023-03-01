@@ -9,6 +9,7 @@ import Status from './routers/status/Status';
 import Community from './routers/community/Community';
 import Calls  from './routers/calls/Calls';
 import Contacts from './routers/Contacts/Contacts';
+import NewContact from './routers/Contacts/new Contact/NewContact';
 
 const router = createBrowserRouter([
   { path: "/",
@@ -19,12 +20,11 @@ const router = createBrowserRouter([
       {path: "status", element: <Status />},
       {path: "calls", element: <Calls />},
       {path: "status", element: <Status />}
+      
     ]
   },
-  {
-    path: "/contacts",
-    element: <Contacts />
-  }
+  { path: "/contacts",element: <Contacts /> },
+  {path: "/newContact",element: <NewContact />}
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

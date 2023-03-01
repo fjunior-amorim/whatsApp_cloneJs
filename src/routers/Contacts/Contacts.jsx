@@ -29,7 +29,7 @@ const Contacts = () => {
           </div>
           <div className="newContact">
             <div className='link'>
-              <Link><FaUserPlus /></Link>
+              <Link to="/newContact" ><FaUserPlus /> </Link>
               <h3>Novo Contato</h3>
             </div>
             <IoQrCodeSharp className='qrcode'/>
