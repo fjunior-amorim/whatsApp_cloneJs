@@ -1,8 +1,9 @@
-import React from 'react'
+import './index.css'
 
 const NewContact = () => {
+  
   return (
-    <div>
+    <div className='conteiner_newContact'>
         <h2>NewContact</h2>
         <form>
             <div className='image'>

@@ -1,0 +1,53 @@
+.conteiner_newContact {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100%;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: black;
+}
+.conteiner_newContact h2 {
+    color: #fff;
+    padding: 10px;
+}
+.image {
+    margin: 30px;
+}
+.conteiner_newContact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form_conteiner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    border-radius: 16px;
+    padding: 10px;
+}
+.form_conteiner .inputs {
+    width: 95%;
+}
+.form_conteiner input {
+    width: 70%;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(78, 78, 78);
+    font-size: 1em;
+    line-height: 2em;
+    margin-bottom: 15px;
+}
+.form_conteiner input:active, input:focus {
+    border-color: rgb(1, 90, 1);
+}
+.form_conteiner select {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(78, 78, 78);
+    font-size: 1em;
+   
+}
