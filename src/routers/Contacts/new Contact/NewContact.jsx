@@ -1,13 +1,21 @@
+//import { useState } from 'react'
+import { IoCameraOutline } from "react-icons/io5";
 import './index.css'
 
 const NewContact = () => {
-  
+  //const [file, serFile] = useState();
+
+  const handleFile = () =>{
+    console.log("value Input: ")
+    }
+
   return (
     <div className='conteiner_newContact'>
         <h2>NewContact</h2>
         <form>
             <div className='image'>
-                <input type="file" />
+                <label htmlFor="image"><IoCameraOutline /></label>
+                <input type="file" name='image' id='image' onChange={handleFile}/>
             </div>
             <div className='form_conteiner'>
                 <div className="inputs name">

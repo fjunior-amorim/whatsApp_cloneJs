@@ -20,7 +20,7 @@
     justify-content: center;
 }
 .form_conteiner {
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,10 +29,35 @@
     padding: 10px;
 }
 .form_conteiner .inputs {
-    width: 95%;
+    width: 90%;
+}
+.conteiner_newContact .image input {
+    display: none;
+}
+.conteiner_newContact .image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner_newContact .image label {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+    background-color: green;
+    cursor: pointer;
+}
+.conteiner_newContact .image label svg {
+    font-size: 1.8em;
+    color: rgb(15, 15, 15);
 }
 .form_conteiner input {
     width: 70%;
+    color: #b4b4b4;
     background: none;
     border: none;
     outline: none;
@@ -41,6 +66,7 @@
     line-height: 2em;
     margin-bottom: 15px;
 }
+
 .form_conteiner input:active, input:focus {
     border-color: rgb(1, 90, 1);
 }
@@ -49,5 +75,29 @@
     border: none;
     border-bottom: 1px solid rgb(78, 78, 78);
     font-size: 1em;
+    color: rgb(136, 136, 136);
    
+}
+.form_conteiner .telefone, .email {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btns {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.btns button {
+    color: green;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    background: none;
+}
+.btns button:hover {
+    cursor: pointer;
+    color: rgba(0, 255, 0, 0.61);
 }
